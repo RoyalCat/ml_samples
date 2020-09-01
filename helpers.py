@@ -1,7 +1,7 @@
 import pandas
 from tqdm.auto import tqdm
 import numpy
-from typing import Callable, Dict, Any, List
+from typing import Callable, Dict, Any, List    
 
 
 def split_collumn(
@@ -30,7 +30,7 @@ def split_collumn(
     return df
 
 
-def concat_collumn(
+def concat_collumns(
     df: pandas.DataFrame,
     columns: List[str],
     new_column: str,
